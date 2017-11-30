@@ -134,5 +134,9 @@
 	},
 	"achievementText2": {
 		"message": "Pokud máte rádi kontejnery, pomozte nám šířit slovo!"
+	},
+	
+	"cmdOpenContainersPanel": {
+		"message": "Otevřete panel kontejnerů"
 	}
 }
