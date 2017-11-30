@@ -1,0 +1,155 @@
+{
+	// LOCALIZED EXTENSION DATA
+	"extName": {
+		"message": "Firefox Multi-Account Containers (Localized)"
+	},
+	"extAuthor": {
+		"message": "?? Author ??"
+	},
+	"extDescription": {
+		"message": "Multi-Account Containers helps you keep all the parts of your online life contained in different tabs. Custom labels and color-coded tabs help keep different activities — like online shopping, travel planning, or checking work email — separate."
+	},
+
+	// TEXTS FOR ONBOARDING PAGES
+	"titlePage1": {
+		"message": "A better way to manage all the things you do online"
+	},
+	"contentPage1": {
+		"message": "Use containers to organize tasks, manage accounts, and keep your focus where you want it."
+	},
+	"titlePage1s": {
+		"message": "A simple and secure way to manage your online life"
+	},
+	"contentPage1s": {
+		"message": "Use containers to organize tasks, manage accounts, and store sensitive data."
+	},
+	"titlePage2": {
+		"message": "Put containers to work for you"
+	},
+	"contentPage2": {
+		"message": "Features like color-coding and separate container tabs help you find things easily, focus your attention, and minimize distractions."
+	},
+	"contentPage2s": {
+		"message": "Color-coding helps you categorize your online life, find things easily, and minimize distractions."
+	},
+	"titlePage3": {
+		"message": "A place for everything, and everything in its place"
+	},
+	"contentPage3": {
+		"message": "Start with the containers we've created, or create your own."
+	},
+	"titlePage3s": {
+		"message": "Set boundaries for your browsing"
+	},
+	"contentPage3s": {
+		"message": "Cookies are stored within a container, so you can segment sensitive data and browsing history to stay organized and to limit the impact of online trackers."
+	},
+	"titlePage4": {
+		"message": "Always open sites in the containers you want"
+	},
+	"contentPage4": {
+		"message": "Right-click inside a container tab to assign the site to always open in the container."
+	},
+	"titlePage5": {
+		"message": "Container tabs when you need them"
+	},
+	"contentPage5": {
+		"message": "Long-press the New Tab button to create a new container tab."
+	},
+
+	// ONBOARDING ALT-TEXTS
+	"altOverview": {
+		"message": "Container Tabs Overview"
+	},
+	"altHowWork": {
+		"message": "How Containers Work"
+	},
+	"altHowAssign": {
+		"message": "How to assign sites to containers"
+	},
+	"altLongPress": {
+		"message": "Long-press the New Tab button to create a new container tab"
+	},
+
+	// ONBOARDING BUTTONS
+	"buttonStart": {
+		"message": "Get Started"
+	},
+	"buttonNext": {
+		"message": "Next"
+	},
+	"buttonDone": {
+		"message": "Done"
+	},
+	"buttonOk": {
+		"message": "OK"
+	},
+	"buttonCancel": {
+		"message": "Cancel"
+	},
+
+	// TEXTS
+	"textEditContainers": {
+		"message": "Edit Containers"
+	},
+	"textExitEditMode": {
+		"message": "Exit Edit Mode"
+	},
+
+	"legendName": {
+		"message": "Name"
+	},
+	"legendChooseColor": {
+		"message": "Choose a color"
+	},
+	"legendChooseIcon": {
+		"message": "Choose an icon"
+	},
+
+
+	"textRate": {
+		"message": "Rate"
+	},
+	"textShare": {
+		"message": "Share"
+	},
+	"textTweet": {
+		"message": "Tweet"
+	},
+
+
+	"textCurrentTab": {
+		"message": "Current Tab"
+	},
+	"textAlwaysOpenIn": {
+		"message": "Always open in"
+	},
+	"buttonSortTabs": {
+		"message": "Sort Tabs"
+	},
+	"titleSortTabs": {
+		"message": "Sort tabs into container order"
+	},
+
+	"textCreateNewContainer": {
+		"message": "Create new container"
+	},
+	"altCreateNewContainer": {
+		"message": "Create new container icon"
+	},
+
+
+	"altAchievemntImage": {
+		"message": "You achieved a Containers milestone!"
+	},
+	"achievementTitle": {
+		"message": "100 tabs!"
+	},
+	"achievementText1": {
+		"message": "You've opened 100 Container tabs."
+	},
+	"achievementText2": {
+		"message": "If you enjoy Containers, help us spread the word!"
+	}
+}
+ 
