@@ -150,6 +150,11 @@
 	},
 	"achievementText2": {
 		"message": "If you enjoy Containers, help us spread the word!"
+	},
+	
+	"cmdOpenContainersPanel": {
+		"message": "Open containers panel"
 	}
+
 }
  
