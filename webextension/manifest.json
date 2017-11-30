@@ -1,14 +1,25 @@
 {
   "manifest_version": 2,
-  "name": "Firefox Multi-Account Containers",
+	
+  "name": "__MSG_extName__",
   "version": "4.1.0",
-
-  "description": "Multi-Account Containers helps you keep all the parts of your online life contained in different tabs. Custom labels and color-coded tabs help keep different activities — like online shopping, travel planning, or checking work email — separate.",
+	"author": "?? author(s) ??",
+	"description": "__MSG_extDescription__",
+  
   "icons": {
     "48": "img/container-site-d-48.png",
     "96": "img/container-site-d-96.png"
   },
 
+ 	"default_locale": "en",
+
+	"browser_action": {
+		"browser_style": true,
+		"default_icon": "img/container-site.svg",
+		"default_title": "__MSG_extName__",
+		"default_popup": "popup.html"
+	},
+  
   "applications": {
     "gecko": {
       "strict_min_version": "53.0"
@@ -39,13 +50,6 @@
       },
       "description": "Open containers panel"
     }
-  },
-
-  "browser_action": {
-    "browser_style": true,
-    "default_icon": "img/container-site.svg",
-    "default_title": "Multi-Account Containers",
-    "default_popup": "popup.html"
   },
 
   "background": {
