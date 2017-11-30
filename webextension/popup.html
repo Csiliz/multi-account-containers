@@ -1,130 +1,126 @@
 <html>
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta charset="utf-8">
   <title>Multi-Account Containers</title>
-  <link rel="stylesheet" href="/css/popup.css">
-
+	<link rel="stylesheet" href="/css/popup.css">
 </head>
 <body>
+	<localizable>
+	<div class="hide panel onboarding onboarding-panel-1">
+		<img class="onboarding-img" alt="__MSG_altOverview__" src="/img/onboarding-1.png" />
+		<h3 class="onboarding-title">__MSG_titlePage1__</h3>
+		<p>__MSG_contentPage1__</p>
+		<a href="#" class="onboarding-button onboarding-start-button">__MSG_buttonStart__</a>
+	</div>
 
-  <div class="hide panel onboarding onboarding-panel-1">
-    <img class="onboarding-img" alt="Container Tabs Overview" src="/img/onboarding-1.png" />
-    <h3 class="onboarding-title">A better way to manage all the things you do online</h3>
-    <p>
-      Use containers to organize tasks, manage accounts, and keep your focus where you want it.
-    </p>
-    <a href="#" class="onboarding-button onboarding-start-button">Get Started</a>
-  </div>
+	<div class="hide panel onboarding security-onboarding-panel-1">
+		<img class="onboarding-img" alt="__MSG_altOverview__" src="/img/onboarding-1.png" />
+		<h3 class="onboarding-title">__MSG_titlePage1s__</h3>
+		<p>__MSG_contentPage1s__</p>
+		<a href="#" class="onboarding-button onboarding-start-button">__MSG_buttonNext__</a>
+	</div>
 
-  <div class="hide panel onboarding security-onboarding-panel-1">
-    <img class="onboarding-img" alt="Container Tabs Overview" src="/img/onboarding-1.png" />
-    <h3 class="onboarding-title">A simple and secure way to manage your online life</h3>
-    <p>
-      Use containers to organize tasks, manage accounts, and store sensitive data.
-    </p>
-    <a href="#" class="onboarding-button onboarding-start-button">Get Started</a>
-  </div>
+	<div class="panel onboarding onboarding-panel-2 hide">
+		<img class="onboarding-img" alt="__MSG_altHowWork__" src="/img/onboarding-2.png" />
+		<h3 class="onboarding-title">__MSG_titlePage2__</h3>
+		<p>__MSG_contentPage2__</p>
+		<a href="#" class="onboarding-button onboarding-next-button">__MSG_buttonNext__</a>
+	</div>
 
-  <div class="panel onboarding onboarding-panel-2 hide">
-    <img class="onboarding-img" alt="How Containers Work" src="/img/onboarding-2.png" />
-    <h3 class="onboarding-title">Put containers to work for you.</h3>
-    <p>Features like color-coding and separate container tabs help you find things easily, focus your attention, and minimize distractions.</p>
-    <a href="#" class="onboarding-button onboarding-next-button">Next</a>
-  </div>
+	<div class="panel onboarding security-onboarding-panel-2 hide">
+		<img class="onboarding-img" alt="__MSG_altHowWork__" src="/img/onboarding-2.png" />
+		<h3 class="onboarding-title">__MSG_titlePage2__</h3>
+		<p>__MSG_contentPage2s__</p>
+		<a href="#" class="onboarding-button onboarding-next-button">__MSG_buttonNext__</a>
+	</div>
 
-  <div class="panel onboarding security-onboarding-panel-2 hide">
-    <img class="onboarding-img" alt="How Containers Work" src="/img/onboarding-2.png" />
-    <h3 class="onboarding-title">Put containers to work for you.</h3>
-    <p>Color-coding helps you categorize your online life, find things easily, and minimize distractions.</p>
-    <a href="#" class="onboarding-button onboarding-next-button">Next</a>
-  </div>
+	<div class="panel onboarding onboarding-panel-3 hide">
+		<img class="onboarding-img" alt="__MSG_altHowWork__" src="/img/onboarding-3.png" />
+		<h3 class="onboarding-title">__MSG_titlePage3__</h3>
+		<p>__MSG_contentPage3__</p>
+		<a href="#" class="onboarding-button onboarding-almost-done-button">__MSG_buttonNext__</a>
+	</div>
 
-  <div class="panel onboarding onboarding-panel-3 hide">
-    <img class="onboarding-img" alt="How Containers Work" src="/img/onboarding-3.png" />
-    <h3 class="onboarding-title">A place for everything, and everything in its place.</h3>
-    <p>Start with the containers we've created, or create your own.</p>
-    <a href="#" class="onboarding-button onboarding-almost-done-button">Next</a>
-  </div>
+	<div class="panel onboarding security-onboarding-panel-3 hide">
+		<img class="onboarding-img" alt="__MSG_altHowWork__" src="/img/onboarding-3-security.png" />
+		<h3 class="onboarding-title">__MSG_titlePage3s__</h3>
+		<p>__MSG_contentPage3s__</p>
+		<a href="#" class="onboarding-button onboarding-almost-done-button">__MSG_buttonNext__</a>
+	</div>
 
-  <div class="panel onboarding security-onboarding-panel-3 hide">
-    <img class="onboarding-img" alt="How Containers Work" src="/img/onboarding-3-security.png" />
-    <h3 class="onboarding-title">Set boundaries for your browsing.</h3>
-    <p>Cookies are stored within a container, so you can segment sensitive data and browsing history to stay organized and to limit the impact of online trackers.</p>
-    <a href="#" class="onboarding-button onboarding-almost-done-button">Next</a>
-  </div>
+	<div class="panel onboarding onboarding-panel-4 hide" id="onboarding-panel-4">
+		<img class="onboarding-img" alt="__MSG_altHowAssign__" src="/img/onboarding-4.png" />
+		<h3 class="onboarding-title">__MSG_titlePage4__</h3>
+		<p>__MSG_contentPage4__</p>
+		<a href="#" id="onboarding-done-button" class="onboarding-button">__MSG_buttonNext__</a>
+	</div>
 
-  <div class="panel onboarding onboarding-panel-4 hide" id="onboarding-panel-4">
-    <img class="onboarding-img" alt="How to assign sites to containers" src="/img/onboarding-4.png" />
-    <h3 class="onboarding-title">Always open sites in the containers you want.</h3>
-    <p>Right-click inside a container tab to assign the site to always open in the container.</p>
-    <a href="#" id="onboarding-done-button" class="onboarding-button">Next</a>
-  </div>
+	<div class="panel onboarding onboarding-panel-5 hide" id="onboarding-panel-5">
+		<img class="onboarding-img" alt="__MSG_altLongPress__" src="/img/onboarding-3.png" />
+		<h3 class="onboarding-title">__MSG_titlePage5__</h3>
+		<p>__MSG_contentPage5__</p>
+		<a href="#" id="onboarding-longpress-button" class="onboarding-button">__MSG_buttonDone__</a>
+	</div>
 
-  <div class="panel onboarding onboarding-panel-5 hide" id="onboarding-panel-5">
-    <img class="onboarding-img" alt="Long-press the New Tab button to create a new container tab." src="/img/onboarding-3.png" />
-    <h3 class="onboarding-title">Container tabs when you need them.</h3>
-    <p>Long-press the New Tab button to create a new container tab.</p>
-    <a href="#" id="onboarding-longpress-button" class="onboarding-button">Done</a>
-  </div>
+	<div class="panel achievement-panel hide" id="achievement-panel">
+		<img class="onboarding-img" alt="__MSG_altAchievemntImage__" src="/img/onboarding-3.png" />
+		<h3 class="onboarding-title">__MSG_achievementTitle__</h3>
+		<p>__MSG_achievementText1__</p>
+		<p>__MSG_achievementText2__</p>
+		<p class="share-ctas">
+			<a class="cta-link" href="https://mzl.la/2gJtIZ4" id="achievement-rate-button" target="_blank">
+				<span class="cta amo-rate-cta">
+					<img src="/img/amo-icon.svg" class="cta-icon" alt="addons.mozilla.org Icon">
+					__MSG_textRate__
+				</span>
+			</a>
+			<a class="cta-link" href="https://bit.ly/fb-share-mac-addon" target="_blank">
+				<span class="cta fb-share-cta">
+					<img src="/img/webicon-facebook.svg" class="cta-icon" alt="Facebook Icon">
+					__MSG_textShare__
+				</span>
+			</a>
+			<a class="cta-link" href="http://bit.ly/tweet-100-tabs-mac-addon" target="_blank">
+				<span class="cta tweet-cta">
+					<img src="/img/webicon-twitter.svg" class="cta-icon" alt="Twitter Icon">
+					__MSG_textTweet__
+				</span>
+			</a>
+		</p>
+		<a href="#" id="achievement-done-button" class="onboarding-button">__MSG_buttonDone__</a>
+	</div>
 
-  <div class="panel achievement-panel hide" id="achievement-panel">
-    <img class="onboarding-img" alt="You achieved a Containers milestone!" src="/img/onboarding-3.png" />
-    <h3 class="onboarding-title">100 tabs!</h3>
-    <p>You've opened 100 Container tabs.</p>
-    <p>If you enjoy Containers, help us spread the word!</p>
-    <p class="share-ctas">
-      <a class="cta-link" href="https://mzl.la/2gJtIZ4" id="achievement-rate-button" target="_blank">
-        <span class="cta amo-rate-cta">
-          <img src="/img/amo-icon.svg" class="cta-icon" alt="addons.mozilla.org Icon">
-          Rate
-        </span>
-      </a>
-      <a class="cta-link" href="https://bit.ly/fb-share-mac-addon" target="_blank">
-        <span class="cta fb-share-cta">
-          <img src="/img/webicon-facebook.svg" class="cta-icon" alt="Facebook Icon">
-          Share
-        </span>
-      </a>
-      <a class="cta-link" href="http://bit.ly/tweet-100-tabs-mac-addon" target="_blank">
-        <span class="cta tweet-cta">
-          <img src="/img/webicon-twitter.svg" class="cta-icon" alt="Twitter Icon">
-          Tweet
-        </span>
-      </a>
-    </p>
-    <a href="#" id="achievement-done-button" class="onboarding-button">Done</a>
-  </div>
+	<div class="panel container-panel hide" id="container-panel">
+		<div id="current-tab">
+			<h3>__MSG_textCurrentTab__</h3>
+			<div id="current-page"></div>
+			<label for="container-page-assigned">
+				<input type="checkbox" id="container-page-assigned" />
+				<span class="truncate-text">
+					__MSG_textAlwaysOpenIn__
+					<span id="current-container"></span>
+				</span>
+			</label>
+		</div>
+		<div class="container-panel-controls">
+			<a href="#" class="action-link" id="sort-containers-link" title="__MSG_titleSortTabs__">__MSG_buttonSortTabs__</a>
+		</div>
+		<div class="scrollable panel-content" tabindex="-1">
+			<table class="identities-list">
+				<tbody></tbody>
+			</table>
+		</div>
+		<div class="panel-footer edit-identities">
+			<div class="edit-containers-text panel-footer-secondary">
+				<a href="#" tabindex="0" id="edit-containers-link">__MSG_textEditContainers__</a>
+			</div>
+			<a href="#" tabindex="0" class="add-container-link pop-button" id="container-add-link" title="__MSG_textCreateNewContainer_">
+				<img class="pop-button-image-small icon" alt="__MSG_altCreateNewContainer__" src="/img/container-add.svg" />
+			</a>
+		</div>
+	</div>
 
-  <div class="panel container-panel hide" id="container-panel">
-    <div id="current-tab">
-      <h3>Current Tab</h3>
-      <div id="current-page"></div>
-      <label for="container-page-assigned">
-        <input type="checkbox" id="container-page-assigned" />
-        <span class="truncate-text">
-          Always open in
-          <span id="current-container"></span>
-        </span>
-      </label>
-    </div>
-    <div class="container-panel-controls">
-      <a href="#" class="action-link" id="sort-containers-link" title="Sort tabs into container order">Sort Tabs</a>
-    </div>
-    <div class="scrollable panel-content" tabindex="-1">
-      <table class="identities-list">
-        <tbody></tbody>
-      </table>
-    </div>
-    <div class="panel-footer edit-identities">
-      <div class="edit-containers-text panel-footer-secondary">
-        <a href="#" tabindex="0" id="edit-containers-link">Edit Containers</a>
-      </div>
-      <a href="#" tabindex="0" class="add-container-link pop-button" id="container-add-link" title="Create new container">
-        <img class="pop-button-image-small icon" alt="Create new container icon" src="/img/container-add.svg" />
-      </a>
-    </div>
-  </div>
-
+	<!-- TODO LOCALIZATION TO THE END OF FILE -->
 
   <div class="hide panel container-info-panel" id="container-info-panel" tabindex="-1">
     <div class="columns">
@@ -149,49 +145,49 @@
     </div>
   </div>
 
+	<!-- Containers in edit mode -->
+	<div class="panel edit-containers-panel hide" id="edit-containers-panel">
+		<div class="panel-header">
+			<h3 class="panel-header-text">__MSG_textEditContainers__</h3>
+		</div>
+		<div class="scrollable panel-content">
+			<table class="unstriped">
+				<tbody id="edit-identities-list"></tbody>
+			</table>
+		</div>
+		<div class="panel-footer edit-containers-panel-footer">
+			<a href="#" id="exit-edit-mode-link" class="exit-edit-mode-link edit-containers-exit-text">__MSG_textExitEditMode__</a>
+		</div>
+	</div>
 
-  <div class="panel edit-containers-panel hide" id="edit-containers-panel">
-    <div class="panel-header">
-      <h3 class="panel-header-text">Edit Containers</h3>
-    </div>
-    <div class="scrollable panel-content">
-      <table class="unstriped">
-        <tbody id="edit-identities-list"></tbody>
-      </table>
-    </div>
-    <div class="panel-footer edit-containers-panel-footer">
-      <a href="#" id="exit-edit-mode-link" class="exit-edit-mode-link edit-containers-exit-text">Exit Edit Mode</a>
-    </div>
-  </div>
-
-
-  <div class="panel edit-container-panel hide" id="edit-container-panel">
-    <div class="columns">
-      <div class="panel-back-arrow" id="edit-container-panel-back-arrow">
-        <img alt="Panel Back Arrow" src="/img/container-arrow.svg" class="back-arrow-img" />
-      </div>
-      <div class="column-panel-content">
-        <form id="edit-container-panel-form">
-          <input type="hidden" name="container-id" id="edit-container-panel-usercontext-input" />
-          <fieldset>
-            <legend>Name</legend>
-            <input type="text" name="container-name" id="edit-container-panel-name-input" maxlength="25"/>
-          </fieldset>
-          <fieldset id="edit-container-panel-choose-color" class="radio-choice">
-            <legend>Choose a color</legend>
-          </fieldset>
-          <fieldset id="edit-container-panel-choose-icon" class="radio-choice">
-            <legend>Choose an icon</legend>
-          </fieldset>
-        </form>
+	<!-- Container edit form -->
+	<div class="panel edit-container-panel hide" id="edit-container-panel">
+		<div class="columns">
+			<div class="panel-back-arrow" id="edit-container-panel-back-arrow">
+				<img alt="Panel Back Arrow" src="/img/container-arrow.svg" class="back-arrow-img" />
+			</div>
+			<div class="column-panel-content">
+				<form id="edit-container-panel-form">
+					<input type="hidden" name="container-id" id="edit-container-panel-usercontext-input" />
+					<fieldset>
+						<legend>__MSG_legendName__</legend>
+						<input type="text" name="container-name" id="edit-container-panel-name-input" maxlength="25"/>
+					</fieldset>
+					<fieldset id="edit-container-panel-choose-color" class="radio-choice">
+						<legend>__MSG_legendChooseColor__</legend>
+					</fieldset>
+					<fieldset id="edit-container-panel-choose-icon" class="radio-choice">
+						<legend>__MSG_legendChooseIcon__</legend>
+					</fieldset>
+				</form>
         <div id="edit-sites-assigned" class="scrollable" hidden>
           <h3>Sites assigned to this container</h3>
           <div class="assigned-sites-list">
           </div>
         </div>
         <div class="panel-footer">
-          <a href="#" class="button secondary expanded footer-button cancel-button" id="edit-container-cancel-link">Cancel</a>
-          <a class="button primary expanded footer-button" id="edit-container-ok-link">OK</a>
+          <a href="#" class="button secondary expanded footer-button cancel-button" id="edit-container-cancel-link">__MSG_buttonCancel__</a>
+          <a class="button primary expanded footer-button" id="edit-container-ok-link">__MSG_buttonOk__</a>
         </div>
       </div>
     </div>
@@ -207,12 +203,14 @@
       <p>If you remove this container now, <span id="delete-container-tab-count"></span> container tabs will be closed. Are you sure you want to remove this Container?</p>
     </div>
     <div class="panel-footer">
-      <a href="#" class="button expanded secondary footer-button cancel-button" id="delete-container-cancel-link">Cancel</a>
-      <a href="#" class="button expanded primary footer-button" id="delete-container-ok-link">OK</a>
+      <a href="#" class="button expanded secondary footer-button cancel-button" id="delete-container-cancel-link">__MSG_buttonCancel__</a>
+      <a href="#" class="button expanded primary footer-button" id="delete-container-ok-link">__MSG_buttonOk__</a>
     </div>
   </div>
+	</localizable>
 
-  <script src="js/utils.js"></script>
-  <script src="js/popup.js"></script>
+	<script src="js/localize.js"></script>
+	<script src="js/utils.js"></script>
+	<script src="js/popup.js"></script>
 </body>
 </html>
