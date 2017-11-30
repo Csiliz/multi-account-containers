@@ -1,0 +1,138 @@
+{
+	// EXTENSION DATA
+	"extName": {
+		"message": "Víceúčtové kontajnery pro Firefox (Lokalizované)"
+	},
+	"extAuthor": {
+		"message": "?? Autor ??"
+	},
+	"extDescription": {
+		"message": "Kontejnery s více účty pomáhají udržovat všechny části vašeho online života obsažené na různých kartách. Vlastní štítky a karty s barevným kódem pomáhají zachovávat různé aktivity - například nakupování na internetu, plánování cestování nebo e-mail pro kontrolu práce - samostatné."
+	},
+
+	// TEXTY STRAN
+	"titlePage1": {
+		"message": "Lepší způsob, jak spravovat všechny věci, které děláte online"
+	},
+	"contentPage1": {
+		"message": "Pomocí kontejnerů můžete organizovat úlohy, spravovat účty a udržet si své zaměření tam, kde je chcete."
+	},
+	"titlePage1s": {
+		"message": "Jednoduchý a bezpečný způsob, jak spravovat svůj online život"
+	},
+	"contentPage1s": {
+		"message": "Pomocí kontejnerů můžete organizovat úkoly, spravovat účty a ukládat citlivá data."
+	},
+	"titlePage2": {
+		"message": "Umístěte kontejnery do práce pro vás"
+	},
+	"contentPage2": {
+		"message": "Funkce, jako je kódování barev a samostatné karty kontejnerů, vám pomohou snadno najít věci, zaměřit pozornost a minimalizovat rozptýlení."
+	},
+	"contentPage2s": {
+		"message": "Barevné kódování vám pomůže roztřídit svůj život online, snadno najít věci a minimalizovat rozptýlení."
+	},
+	"titlePage3": {
+		"message": "Místo pro všechno a všechno na svém místě"
+	},
+	"contentPage3": {
+		"message": "Začněte s kontejnery, které jsme vytvořili, nebo vytvořte vlastní. "
+	},
+	"titlePage3s": {
+		"message": "Nastavte hranice pro prohlížení"
+	},
+	"contentPage3s": {
+		"message": "Soubory cookie jsou uloženy v kontejneru, takže můžete segmentovat citlivá data a historii prohlížení, abyste mohli zůstat organizovaní a omezit dopad sledovatelů online."
+	},
+	"titlePage4": {
+		"message": "Vždy otevřete stránky v kontejnerech, které chcete"
+	},
+	"contentPage4": {
+		"message": "Klepněte pravým tlačítkem myši uvnitř záložky kontejneru a přiřaďte stránky, které se vždy otevřou v kontejneru."
+	},
+	"titlePage5": {
+		"message": "Karty kontejnerů, když je potřebujete"
+	},
+	"contentPage5": {
+		"message": "Dlouhým stisknutím tlačítka Nová karta vytvoříte novou kartu kontejneru."
+	},
+
+	// TLAČÍTKA
+	"buttonStart": {
+		"message": "Začít"
+	},
+	"buttonNext": {
+		"message": "Další"
+	},
+	"buttonDone": {
+		"message": "Hotovo"
+	},
+	"buttonOk": {
+		"message": "OK"
+	},
+	"buttonCancel": {
+		"message": "Storno"
+	},
+
+	// EDITÁCIA KONTEJNEROV
+	"textEditContainers": {
+		"message": "Upravit kontejnery"
+	},
+	"textExitEditMode": {
+		"message": "Ukončit režim úprav"
+	},
+
+	"legendName": {
+		"message": "Název"
+	},
+	"legendChooseColor": {
+		"message": "Vyberte barvu"
+	},
+	"legendChooseIcon": {
+		"message": "Vyberte ikonu"
+	},
+
+	"textRate": {
+		"message": "Ohodnoť"
+	},
+	"textShare": {
+		"message": "Sdílej"
+	},
+	"textTweet": {
+		"message": "Tweetuj"
+	},
+
+	"textCurrentTab": {
+		"message": "Aktuální karta"
+	},
+	"textAlwaysOpenIn": {
+		"message": "Vždy se otevřít v"
+	},
+	"buttonSortTabs": {
+		"message": "Uspořádat"
+	},
+	"titleSortTabs": {
+		"message": "Seřadit karty do pořadí kontejnerů"
+	},
+
+	"textCreateNewContainer": {
+		"message": "Vytvořit nový kontejner"
+	},
+	"altCreateNewContainer": {
+		"message": "Vytvořit nový kontejner"
+	},
+
+
+	"altAchievemntImage": {
+		"message": "Dosáhli jste milník kontejnerů!"
+	},
+	"achievementTitle": {
+		"message": "100 záložek!"
+	},
+	"achievementText1": {
+		"message": "Otevřeli jste 100 kontejnerů."
+	},
+	"achievementText2": {
+		"message": "Pokud máte rádi kontejnery, pomozte nám šířit slovo!"
+	}
+}
