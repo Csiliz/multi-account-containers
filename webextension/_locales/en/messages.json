@@ -1,7 +1,7 @@
 {
-	// LOCALIZED EXTENSION DATA
+	// EXTENSION DATA
 	"extName": {
-		"message": "Firefox Multi-Account Containers (Localized)"
+		"message": "Firefox Multi-Account Containers (Localizable)"
 	},
 	"extAuthor": {
 		"message": "?? Author ??"
@@ -10,7 +10,24 @@
 		"message": "Multi-Account Containers helps you keep all the parts of your online life contained in different tabs. Custom labels and color-coded tabs help keep different activities — like online shopping, travel planning, or checking work email — separate."
 	},
 
-	// TEXTS FOR ONBOARDING PAGES
+	// BUTTONS
+	"buttonStart": {
+		"message": "Get Started"
+	},
+	"buttonNext": {
+		"message": "Next"
+	},
+	"buttonDone": {
+		"message": "Done"
+	},
+	"buttonOk": {
+		"message": "OK"
+	},
+	"buttonCancel": {
+		"message": "Cancel"
+	},
+
+	// PAGE TEXTS
 	"titlePage1": {
 		"message": "A better way to manage all the things you do online"
 	},
@@ -57,37 +74,6 @@
 		"message": "Long-press the New Tab button to create a new container tab."
 	},
 
-	// ONBOARDING ALT-TEXTS
-	"altOverview": {
-		"message": "Container Tabs Overview"
-	},
-	"altHowWork": {
-		"message": "How Containers Work"
-	},
-	"altHowAssign": {
-		"message": "How to assign sites to containers"
-	},
-	"altLongPress": {
-		"message": "Long-press the New Tab button to create a new container tab"
-	},
-
-	// ONBOARDING BUTTONS
-	"buttonStart": {
-		"message": "Get Started"
-	},
-	"buttonNext": {
-		"message": "Next"
-	},
-	"buttonDone": {
-		"message": "Done"
-	},
-	"buttonOk": {
-		"message": "OK"
-	},
-	"buttonCancel": {
-		"message": "Cancel"
-	},
-
 	// TEXTS
 	"textEditContainers": {
 		"message": "Edit Containers"
@@ -106,6 +92,19 @@
 		"message": "Choose an icon"
 	},
 
+	// ALT TEXTS
+	"altOverview": {
+		"message": "Container Tabs Overview"
+	},
+	"altHowWork": {
+		"message": "How Containers Work"
+	},
+	"altHowAssign": {
+		"message": "How to assign sites to containers"
+	},
+	"altLongPress": {
+		"message": "Long-press the New Tab button to create a new container tab"
+	},
 
 	"textRate": {
 		"message": "Rate"
@@ -151,10 +150,35 @@
 	"achievementText2": {
 		"message": "If you enjoy Containers, help us spread the word!"
 	},
-	
+
 	"cmdOpenContainersPanel": {
 		"message": "Open containers panel"
-	}
+	},
 
+	// NEW TEXTS
+	// Added: 2017.11.30.
+	"altBackArrow": {
+		"message": "Panel Back Arrow"
+	},
+	"altHideIcon": {
+		"message": "Hide Container icon"
+	},
+	"textHideInfo": {
+		"message":"Hide this container"
+	},
+	"textMoveInfo": {
+		"message":"Move tabs to a new window"
+	},
+	"textAssignedSites": {
+		"message": "Sites assigned to this container"
+	},
+	"titleConfirmDelete": {
+		"message": "Remove This Container"
+	},
+	"textConfirmDelete1": {
+		"message": "If you remove this container now, "
+	},
+	"textConfirmDelete2": {
+		"message": " container tabs will be closed. Are you sure you want to remove this Container?"
+	}
 }
- 
