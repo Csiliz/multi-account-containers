@@ -1,8 +1,10 @@
-﻿(function() {
+(function() {
 	//Localize by replacing __MSG_***__ meta tags
 	try {
+		// This not work!
 		//var objects = document.getElementsByTagName('html');
-		var objects = document.getElementsByTagName('localizable');
+		var objects = document.getElementsByTagName('body');
+		//var objects = document.getElementsByTagName('localizable');
 		for (var j = 0; j < objects.length; j++) {
 			var obj = objects[j];
 			var valStrH = obj.innerHTML.toString();
@@ -12,11 +14,11 @@
 
 			if(valNewH != valStrH) {
 				obj.innerHTML = valNewH;
-				console.log(valNewH);
+				//console.log(valNewH);
 			}
 	    }
 	}
 	catch (e) {
-		console.log("Localization error: " + e.message);
+		//console.log("Localization error: " + e.message);
 	}
 })();
