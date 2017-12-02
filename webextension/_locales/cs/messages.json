@@ -57,6 +57,20 @@
 		"message": "Dlouhým stisknutím tlačítka Nová karta vytvoříte novou kartu kontejneru."
 	},
 
+	// ALT TEXTS
+	"altOverview": {
+		"message": "Přehled karet kontejnerů"
+	},
+	"altHowWork": {
+		"message": "Jak fungují kontejnery"
+	},
+	"altHowAssign": {
+		"message": "Jak přiřadit stránky kontejnerům"
+	},
+	"altLongPress": {
+		"message": "Dlouhým stiskem tlačítka Nová karta vytvoříte novou záložku kontejneru"
+	},
+
 	// TLAČÍTKA
 	"buttonStart": {
 		"message": "Začít"
@@ -102,6 +116,7 @@
 		"message": "Tweetuj"
 	},
 
+
 	"textCurrentTab": {
 		"message": "Aktuální karta"
 	},
@@ -135,8 +150,48 @@
 	"achievementText2": {
 		"message": "Pokud máte rádi kontejnery, pomozte nám šířit slovo!"
 	},
-	
+
 	"cmdOpenContainersPanel": {
 		"message": "Otevřete panel kontejnerů"
+	},
+
+	// Added 2017.11.30.
+	"altBackArrow": {
+		"message": "Šípka panel zpět"
+	},
+	"altHideIcon": {
+		"message": "Skrýt ikonu kontejneru"
+	},
+	"textHideInfo": {
+		"message":"Skrýt tento kontejner"
+	},
+	"textMoveInfo": {
+		"message":"Přesunout záložky do nového okna"
+	},
+	"textAssignedSites": {
+		"message": "Stránky přiřazené tomuto kontejneru"
+	},
+	"titleConfirmDelete": {
+		"message": "Odstranit tento kontejner"
+	},
+	"textConfirmDelete1": {
+		"message": "Pokud nyní odstraníte tento kontejner, "
+	},
+	"textConfirmDelete2": {
+		"message": " karty kontejneru budou uzavřeny. Opravdu chcete tento kontejner odebrat?"
+	},
+
+	// Added 2017.12.01.
+	"textMovingIsIncompatible": {
+		"message": "Přesouvání záložek nejsou kompatibilní s funkcemi Pulse, PageShot a SnoozeTabs."
+	},
+	"textIncompatibleWithOther": {
+		"message": "Nekompatibilní s ostatními experimenty."
+	},
+	"textShowThisContainer": {
+		"message": "Zobrazit tento kontejner"
+	},
+	"textHideThisContainer": {
+		"message": "Skrýt tento kontejner"
 	}
 }
