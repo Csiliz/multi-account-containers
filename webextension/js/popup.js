@@ -707,11 +707,15 @@ Logic.registerPanel(P_CONTAINER_INFO, {
         const incompatEl = document.createElement("div");
 
         moveTabsEl.classList.remove("clickable");
-        moveTabsEl.setAttribute("title", "Moving container tabs is incompatible with Pulse, PageShot, and SnoozeTabs.");
+		//moveTabsEl.setAttribute("title", "Moving container tabs is incompatible with Pulse, PageShot, and SnoozeTabs.");
+		// Localized
+        moveTabsEl.setAttribute("title", browser.i18n.getMessage("textMovingIsIncompatible"));
 
         fragment.appendChild(incompatEl);
         incompatEl.setAttribute("id", "container-info-movetabs-incompat");
-        incompatEl.textContent = "Incompatible with other Experiments.";
+        //incompatEl.textContent = "Incompatible with other Experiments.";
+		// Localized
+        incompatEl.textContent = browser.i18n.getMessage("textIncompatibleWithOther");
         incompatEl.classList.add("container-info-tab-row");
 
         moveTabsEl.parentNode.insertBefore(fragment, moveTabsEl.nextSibling);
@@ -750,7 +754,9 @@ Logic.registerPanel(P_CONTAINER_INFO, {
     hideShowIcon.src = identity.hasHiddenTabs ? CONTAINER_UNHIDE_SRC : CONTAINER_HIDE_SRC;
 
     const hideShowLabel = document.getElementById("container-info-hideorshow-label");
-    hideShowLabel.textContent = identity.hasHiddenTabs ? "Show this container" : "Hide this container";
+    //hideShowLabel.textContent = identity.hasHiddenTabs ? "Show this container" : "Hide this container";
+	// Localized
+    hideShowLabel.textContent = browser.i18n.getMessage(identity.hasHiddenTabs ? "textShowThisContainer" : "textHideThisContainer");
 
     // Let's remove all the previous tabs.
     const table = document.getElementById("container-info-table");
