@@ -155,8 +155,7 @@
 		"message": "Open containers panel"
 	},
 
-	// NEW TEXTS
-	// Added: 2017.11.30.
+	// Added 2017.11.30.
 	"altBackArrow": {
 		"message": "Panel Back Arrow"
 	},
@@ -180,5 +179,19 @@
 	},
 	"textConfirmDelete2": {
 		"message": " container tabs will be closed. Are you sure you want to remove this Container?"
+	},
+
+	// Added 2017.12.01.
+	"textMovingIsIncompatible": {
+		"message": "Moving container tabs is incompatible with Pulse, PageShot, and SnoozeTabs."
+	},
+	"textIncompatibleWithOther": {
+		"message": "Incompatible with other Experiments."
+	},
+	"textShowThisContainer": {
+		"message": "Show this container"
+	},
+	"textHideThisContainer": {
+		"message": "Hide this container"
 	}
 }
