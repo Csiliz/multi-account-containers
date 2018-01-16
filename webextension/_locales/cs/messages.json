@@ -1,16 +1,31 @@
-{
-	// EXTENSION DATA
+﻿{
+	/////
+	//	FILE    : messages.json
+	// LANGUAGE: czech
+	/////
+	
+	/////
+	//	FILE: manifest.json
+	/////
+	//	Added: 2017.11.30.
 	"extName": {
-		"message": "Víceúčtové kontajnery pro Firefox (Lokalizované)"
+		"message": "Skupiny panelů s kontejnery"
 	},
 	"extAuthor": {
-		"message": "?? Autor ??"
+		"message": "István Nagy, na základe \"Multi-Account-Containers v4.1.0 \" pro Firefox"
 	},
 	"extDescription": {
 		"message": "Kontejnery s více účty pomáhají udržovat všechny části vašeho online života obsažené na různých kartách. Vlastní štítky a karty s barevným kódem pomáhají zachovávat různé aktivity - například nakupování na internetu, plánování cestování nebo e-mail pro kontrolu práce - samostatné."
 	},
+	//	Added: 2017.12.16.
+	"cmdOpenContainersPanel": {
+		"message": "Otevřít panel kontejnerů"
+	},
 
-	// TEXTY STRAN
+	/////
+	//	FILE: popup.html
+	/////
+	//	Added: 2017.11.30.
 	"titlePage1": {
 		"message": "Lepší způsob, jak spravovat všechny věci, které děláte online"
 	},
@@ -181,6 +196,9 @@
 		"message": " karty kontejneru budou uzavřeny. Opravdu chcete tento kontejner odebrat?"
 	},
 
+	/////
+	//	FILE: popup.js
+	/////
 	// Added 2017.12.01.
 	"textMovingIsIncompatible": {
 		"message": "Přesouvání záložek nejsou kompatibilní s funkcemi Pulse, PageShot a SnoozeTabs."
@@ -193,5 +211,71 @@
 	},
 	"textHideThisContainer": {
 		"message": "Skrýt tento kontejner"
+	},
+
+	// Added 2017.12.06.
+	"textCreateTab": {
+		"message": "Vytvořit $NAME$ kartu",
+		"placeholders": {
+			"name": {
+				"content": "$1",
+				"example": "Název kontejneru"
+			}
+		}
+	},
+	"textViewContainer": {
+		"message": "Zobrazit $NAME$ kontejner",
+		"placeholders": {
+			"name": {
+				"content": "$1",
+				"example": "Název kontejneru"
+			}
+		}
+	},
+	// Added: 2017.12.16.
+	"textCountOfTabs": {
+		"message": "( $COUNT$ panelů )",
+		"placeholders": {
+			"count": {
+				"content": "$1",
+				"example": "Počet panelů v kontejneri"
+			}
+		}
+	},
+	"textNewContainerName": {
+		"message": "Záložka #"
+	},
+	// Added: 2017.12.18.
+	"textIsHidden": {
+		"message": "( skrytý )"
+	},
+
+	/////
+	//	FILE: assignManager.js
+	/////
+	// Added 2018.01.06.
+	"cntxMenuAlwaysOpenInThisContainter": {
+		"message": "Vždy otevřít v tomto kontejneru"
+	},
+	"cntxMenuHideThisContainter": {
+		"message": "Skrýt tento kontejner"
+	},
+	"cntxMenuMoveTabsToNewWindow": {
+		"message": "Přesunout záložky do nového okna"
+	},
+	"textActionAdded": {
+		"message": "přidaná ke"
+	},
+	"textActionRemoved": {
+		"message": "odstraněno ze"
+	},
+	"textAddOrRemoveMessage": {
+		"message": "Stránka úspěšně $ACTION$ seznamu \"Vždy otevřít v tomto kontejneru\"",
+		"placeholders": {
+			"action": {
+				"content": "$1",
+				"example": ""
+			}
+		}
 	}
 }
