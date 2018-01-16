@@ -1,15 +1,31 @@
-{
-	// EXTENSION DATA
+﻿{
+	/////
+	//	FILE    : messages.json
+	// LANGUAGE: english
+	/////
+	
+	/////
+	//	MANIFEST.JSON
+	/////
+	// Added: 2017.11.30.
 	"extName": {
-		"message": "Firefox Multi-Account Containers (Localizable)"
+		"message": "TabGroups with Containers"
 	},
 	"extAuthor": {
-		"message": "?? Author ??"
+		"message": "István Nagy, derived from \"Multi-Account-Containers v4.1.0 \" for Firefox"
 	},
 	"extDescription": {
-		"message": "Multi-Account Containers helps you keep all the parts of your online life contained in different tabs. Custom labels and color-coded tabs help keep different activities — like online shopping, travel planning, or checking work email — separate."
+		"message": "TabGroups with Containers helps you keep all the parts of your online life contained in different tabs. Custom labels and color-coded tabs help keep different activities — like online shopping, travel planning, or checking work email — separate."
+	},
+	//	Added: 2017.12.16.
+	"cmdOpenContainersPanel": {
+		"message": "Open containers panel"
 	},
 
+	/////
+	//	POPUP.HTML
+	/////
+	// Added: 2017.11.30.
 	// BUTTONS
 	"buttonStart": {
 		"message": "Get Started"
@@ -181,6 +197,9 @@
 		"message": " container tabs will be closed. Are you sure you want to remove this Container?"
 	},
 
+	/////
+	//	POPUP.JS
+	/////
 	// Added 2017.12.01.
 	"textMovingIsIncompatible": {
 		"message": "Moving container tabs is incompatible with Pulse, PageShot, and SnoozeTabs."
@@ -193,5 +212,71 @@
 	},
 	"textHideThisContainer": {
 		"message": "Hide this container"
+	},
+
+	/////
+	//	POPUP.JS
+	////
+	// Added 2017.12.06.
+	"textCreateTab": {
+		"message": "Create $NAME$ tab",
+		"placeholders": {
+			"name": {
+				"content": "$1",
+				"example": "Name of the container tab"
+			}
+		}
+	},
+	"textViewContainer": {
+		"message": "View $NAME$ container",
+		"placeholders": {
+			"name": {
+				"content": "$1",
+				"example": "Name of the container"
+			}
+		}
+	},
+	// Added: 2017.12.16.
+	"textCountOfTabs": {
+		"message": "( $COUNT$ tabs )",
+		"placeholders": {
+			"count": {
+				"content": "$1",
+				"example": "Count of the tabs in container"
+			}
+		}
+	},
+	"textNewContainerName": {
+		"message": "Container #"
+	},
+	// Added: 2017.12.18.
+	"textIsHidden": {
+		"message": "( hidden )"
+	},
+	
+	/////
+	//	FILE: assignManager.js
+	/////
+	// Added 2018.01.06.
+	"cntxMenuAlwaysOpenInThisContainter": {
+		"message": "Always Open in This Container"
+	},
+	"cntxMenuHideThisContainter": {
+		"message": "Hide This Container"
+	},
+	"textActionAdded": {
+		"message": "added"
+	},
+	"textActionRemoved": {
+		"message": "removed"
+	},
+	"textAddOrRemoveMessage": {
+		"message": "Successfully $ACTION$ site to always open in this container",
+		"placeholders": {
+			"action": {
+				"content": "$1",
+				"example": ""
+			}
+		}
 	}
 }
